@@ -49,7 +49,7 @@ data.head()
 x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.20, random_state=42)
 
 ~~~
-# Training the model
+# Training the model using Logistic Regression
 
 ~~~
 model=LogisticRegression()
@@ -68,5 +68,53 @@ from sklearn.metrics import accuracy_score
 
 acc_logreg = round(accuracy_score(prediction, y_test) * 100, 2)
 print(acc_logreg)
+
 ~~~
+## got 86.29 using Logistic regression
+
+# Training the model using KNN
+
+~~~
+model=KNeighborsClassifier(n_neighbors=10)
+model.fit(x_train,y_train)
+~~~
+# Making the prediction
+
+~~~
+new_prediction=model.predict(testing_data)
+~~~
+## Getting the accuracy score
+
+~~~
+from sklearn.metrics import accuracy_score
+
+
+acc_logreg = round(accuracy_score(prediction, y_test) * 100, 2)
+print(acc_logreg)
+
+~~~
+## got 88.86 using KNN
+
+# Training the model using Decision Tree Classifier
+
+~~~
+model=DecisionTreeClassifier()
+model.fit(x_train,y_train)
+~~~
+# Making the prediction
+
+~~~
+new_prediction=model.predict(testing_data)
+~~~
+## Getting the accuracy score
+
+~~~
+from sklearn.metrics import accuracy_score
+
+
+acc_logreg = round(accuracy_score(prediction, y_test) * 100, 2)
+print(acc_logreg)
+
+~~~
+## got 92.35 using Decision Tree Classifier
 
