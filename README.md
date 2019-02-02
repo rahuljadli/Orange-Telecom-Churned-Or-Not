@@ -38,7 +38,7 @@ data.head()
 
 ### Ploting Effect of number of service calls
 
-![alt Service calls ](https://github.com/rahuljadli/Orange-Telecom-Churned-Or-Not/blob/master/screen_shots/effect_of_no_of_service_call.png)
+![alt Service calls ](https://rahuljadli.github.io/Orange-Telecom-Churned-Or-Not/screen_shots/effect_of_no_of_service_call.png)
 
 
 # Using Different Model's 
