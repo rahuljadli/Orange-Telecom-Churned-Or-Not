@@ -22,19 +22,19 @@ data.head()
 
 ### Ploting the churned people
 
-![alt Churned](https://github.com/rahuljadli/Orange-Telecom-Churned-Or-Not/blob/master/screen_shots/no_of_people.png)
+![alt Churned](https://rahuljadli.github.io/Orange-Telecom-Churned-Or-Not/screen_shots/no_of_people.png)
 
 ### Ploting Area code Wise Churning
 
-![alt Area code](https://github.com/rahuljadli/Orange-Telecom-Churned-Or-Not/blob/master/screen_shots/Area_code.png)
+![alt Area code](https://rahuljadli.github.io/Orange-Telecom-Churned-Or-Not/screen_shots/Area_code.png)
 
 ### Ploting Effect of intial plan
 
-![alt initial plan ](https://github.com/rahuljadli/Orange-Telecom-Churned-Or-Not/blob/master/screen_shots/effect_of_intl_plan.png)
+![alt initial plan ](https://rahuljadli.github.io/Orange-Telecom-Churned-Or-Not/screen_shots/effect_of_intl_plan.png)
 
 ### Ploting Effect of voice plan
 
-![alt Voice plan ](https://github.com/rahuljadli/Orange-Telecom-Churned-Or-Not/blob/master/screen_shots/effect_of_voice_plan.png)
+![alt Voice plan ](https://rahuljadli.github.io/Orange-Telecom-Churned-Or-Not/screen_shots/effect_of_voice_plan.png)
 
 ### Ploting Effect of number of service calls
 
